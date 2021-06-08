@@ -1,74 +1,65 @@
 *{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
-font-family: 'Open Sans',sans-serift;
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contenedor{
-width: 100%;
-max-width: 1170px;
-margin: auto;
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
 }
-
 
 /*cabecera*/
 
-head{
-width: 100%;
-height: 200px;
-background: #fcfff5;
-
+header{
+  width: 100%;
+  height: 200px;
+  background-color: #fcfff5;
 }
 
 .logo{
-  padding: 1px;
+  padding: 25px 0;
 }
 
 .logo img{
-width:150px;
-margin-right:200px;
-padding-top: 18px;
-align-items: center;
-transition: transform .3s;
+  width: 105px;
+  display: block;
+  transition: transform .3s;
 }
 
 .logo img:hover{
-width:150px;
-margin-right:200px;
-padding-top: 18px;
-align-items: center;
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .menu{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-max-width:800px;
-margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
 }
 
 .menu a{
-text-decoration: none;
-color: #7a7a7a;
-font-size: 22px;
-margin-left:10px;
-transition: transform .3s;
+  text-decoration: none;
+  color: #7a7a7a;
+  font-size: 25px;
+  transition: transform .3s;
 }
 
 .menu a:hover{
-color: #a4281f;
-transform: scale(1.1);
+  transform: scale(1.1);
+  color:#a4281f;
 }
+/*fin cabecera*/
 
 /*banner principal*/
-
 .banner{
   width: 100%;
   height: 500px;
@@ -130,22 +121,21 @@ padding : 8px 50px;
 background-color:black;
 margin-top: 45px;
 }
+/*fin banner principal*/
 
 /*bienvenida*/
-
 .bienvenida{
   width: 100%;
   background-color:#3c1c22;
   margin-top: 2px;
-  margin-bottom:3px;
   color: #ffffff;
   text-align: center;
 }
 
 .bienvenida h3{
-font-size:16px;
-padding-top: 20px;
-padding-bottom: 15px;
+  font-size: 16px;
+  padding-top: 40px;
+  padding-bottom: 35px;
 }
 
 .bienvenida a{
@@ -169,12 +159,13 @@ padding-bottom: 15px;
 }
 
 .bienvenida p{
-  font-size:16px;
-  padding-bottom: 10px;
+  font-size: 16px;
+  padding-bottom: 35px;
   line-height: 1.7em;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
 }
+/*fin bienvenida*/
 
 /*nosotros*/
 .nosotros{
@@ -182,11 +173,10 @@ padding-bottom: 15px;
 }
 
 .nosotros > .contenedor{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-padding-top: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .galeria{
@@ -233,9 +223,8 @@ transform: scale(1.1);
 }
 
 .foto-equipo{
-width: 100%;
-max-width: 400px;
-
+  width: 100%;
+  max-width: 570px;
 }
 
 .foto-equipo img{
@@ -243,9 +232,9 @@ max-width: 400px;
 }
 
 .conocenos{
-text-align: center;
-padding: 14px 0;
-max-width: 800px;
+  text-align: center;
+  padding: 15px 0px;
+  max-width: 570px;
 }
 
 .conocenos p:nth-child(1){
@@ -282,9 +271,9 @@ color:#646464;
     text-align: left;
   }
 }
+/*fin nosotros*/
 
 /*pie de pagina*/
-
 .top-footer{
   background-color:#193441;
   height:25px;
@@ -349,3 +338,4 @@ font-size: 18px;
   font-size: 12px;
   text-align: center;
 }
+/*fin pie de pagina*/
