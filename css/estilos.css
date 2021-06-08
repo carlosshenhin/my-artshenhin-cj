@@ -134,19 +134,19 @@ margin-top: 45px;
 }
 
 .bienvenida h3{
-  font-size: 16px;
+  font-size: 15px;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
 .bienvenida h4{
-  font-size: 14px;
+  font-size: 13px;
   padding-top:2px;
   padding-bottom:5px;
 }
 
 .bienvenida a{
-  font-size:14px;
+  font-size:13px;
   padding-bottom: 35px;
   line-height: 1.7em;
   max-width: 1000px;
@@ -156,7 +156,7 @@ margin-top: 45px;
 }
 
 .bienvenida a:hover{
-  font-size:14px;
+  font-size:13px;
   padding-bottom: 35px;
   line-height: 1.7em;
   max-width: 1000px;
@@ -166,10 +166,10 @@ margin-top: 45px;
 }
 
 .bienvenida p{
-  font-size: 14px;
+  font-size: 13px;
   padding-bottom: 35px;
   line-height: 1.7em;
-  max-width: 370px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 /*fin bienvenida*/
