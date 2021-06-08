@@ -29,6 +29,7 @@ header{
 .logo img{
   width: 105px;
   display: block;
+  margin: auto;
   transition: transform .3s;
 }
 
