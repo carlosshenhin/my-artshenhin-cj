@@ -225,15 +225,15 @@ transform: scale(1.1);
 
 @media all and (max-width: 669px){
   .fotos img{
-    width: 80%;
+    width: 70%;
     height: 100%;
   }
 
   .fotos .imagen{
     text-align: center;
-    padding-top: 10px;
-    padding-bottom:10px;
-    max-width: 200px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    max-width: 130px;
   }
 }
 
