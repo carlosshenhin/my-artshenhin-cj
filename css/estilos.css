@@ -313,6 +313,7 @@ color:white;
 max-width: 270px;
 margin: 0 auto;
 font-size:14;
+border-top: 5px solid #3c1c22 ;  
 }
 
 .center-footer .widged h4{
