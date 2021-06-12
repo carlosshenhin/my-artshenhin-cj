@@ -1,0 +1,359 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+
+/*cabecera*/
+
+header{
+  width: 100%;
+  height: 200px;
+  background-color:white;
+}
+
+.logo{
+  padding: 25px 0;
+}
+
+.logo img{
+  width: 105px;
+  display: block;
+  transition: transform .3s;
+  margin: auto;
+}
+
+.logo img:hover{
+  transform: scale(1.1);
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  max-width: 440px;
+  margin: auto;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #7a7a7a;
+  font-size: 15px;
+  transition: transform .3s;
+}
+
+.menu a:hover{
+  transform: scale(1.1);
+  color:#a4281f;
+}
+/*fin cabecera*/
+
+/*banner principal*/
+.banner{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/banner-inicio.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.banner > div{
+width: 100%;
+height: 100%;
+background-color: rgba(209,219,189,0.5);
+
+}
+
+.llamada-accion{
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.llamada-accion p{
+font-size: 25px;
+color:white;
+text-transform: uppercase;
+margin-bottom: 20px;
+margin-top: 115px;
+}
+
+.llamada-accion h2{
+font-size: 42px;
+color: white;
+width: 100%;
+padding: 45px 0;
+background-color: rgba(255, 255, 255, 0.4);
+max-width: 470px;
+margin: auto;
+margin-bottom: 42px;
+}
+
+.llamada-accion a{
+font-size: 18px;
+text-decoration: none;
+color: white;
+padding : 8px 50px;
+background-color: rgba(0,0,0,0.47);
+margin-top: 60px;
+}
+
+.llamada-accion a:hover{
+font-size: 18px;
+text-decoration: none;
+color: gray;
+padding : 8px 50px;
+background-color:black;
+margin-top: 45px;
+}
+/*fin banner principal*/
+
+/*bienvenida*/
+.bienvenida{
+  width: 100%;
+  background-color:#3c1c22;
+  margin-top: 2px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.bienvenida h3{
+  font-size: 16px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.bienvenida h4{
+  font-size: 14px;
+  padding-top:2px;
+  padding-bottom:5px;
+}
+
+.bienvenida a{
+  font-size:14px;
+  padding-bottom: 35px;
+  line-height: 1.7em;
+  max-width: 1000px;
+  text-decoration: none;
+  margin: auto;
+  color: white;
+}
+
+.bienvenida a:hover{
+  font-size:14px;
+  padding-bottom: 35px;
+  line-height: 1.7em;
+  max-width: 1000px;
+  margin: auto;
+  text-decoration: none;
+  color: gray;
+}
+
+.bienvenida p{
+  font-size: 14px;
+  padding-bottom: 35px;
+  line-height: 1.7em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/*fin bienvenida*/
+
+/*nosotros*/
+.nosotros{
+  padding-bottom: 80px;
+}
+
+.nosotros > .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria{
+  width: 100%;
+  background-color: #3e606f;
+}
+
+.galeria > .contenedor{
+  padding: 50px 0;
+}
+
+.galeriaFotos{
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.fotos{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fotos div{
+  max-width:340px;
+  max-height:440px;
+  margin-top: 40px;
+  transition: transform .3s;
+}
+
+.fotos div:hover{
+transform: scale(1.1);
+}
+
+.fotos img{
+  width:100%;
+  height: 100%;
+}
+
+@media all and (max-width: 669px){
+  .fotos img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .fotos .imagen{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom:5px;
+    max-width: 140px;
+  }
+}
+
+.foto-equipo{
+  width: 100%;
+  max-width: 570px;
+}
+
+.foto-equipo img{
+  width: 100%;
+}
+
+.conocenos{
+  text-align: center;
+  padding: 15px 0px;
+  max-width: 570px;
+}
+
+.conocenos p:nth-child(1){
+font-size: 14px;
+ color: #3c1c22;
+ padding-bottom: 20px;
+ border-bottom: 1px solid #3c1c22 ;
+}
+
+.conocenos h3{
+padding-top: 20px;
+padding-bottom: 30px;
+color: #0e96dd;
+font-size: 23px;
+
+}
+
+.conocenos p:nth-child(4){
+font-size: 14px;
+padding-bottom: 22px;
+color:#646464;
+
+}
+
+@media all and (min-width:769px) {
+  .nosotros{
+    padding-top: 80px;
+  }
+  .foto-equipo{
+    margin-right: 30px;
+  }
+  .conocenos{
+    padding-left: 30px;
+    text-align: left;
+  }
+}
+/*fin nosotros*/
+
+/*pie de pagina*/
+.top-footer{
+  background-color:#193441;
+  height:25px;
+}
+
+.center-footer{
+  background-color:gray ;
+
+}
+
+.center-footer  .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center-footer .widged{
+text-align: center;
+padding-top: 20px;
+padding-bottom:35px;
+color:white;
+max-width: 270px;
+margin: 0 auto;
+font-size:14;
+border-top: 5px solid #3c1c22 ;
+}
+
+.center-footer .widged h4{
+padding-bottom: 35px;
+font-size: 18px;
+
+
+}
+
+.center-footer .widged a{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom:35px;
+  color:black;
+  text-decoration: none;
+  max-width: 270px;
+  margin: 0 auto;
+  font-size:14;
+
+}
+
+.center-footer .widged a:hover{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom:35px;
+  color:cyan;
+  text-decoration: none;
+  max-width: 270px;
+  margin: 0 auto;
+  font-size:14;
+}
+
+.bottom-footer{
+  background-color:black;
+  height:25px;
+}
+
+.bottom-footer p{
+  color: #7a7a7a;
+  font-size: 12px;
+  text-align: center;
+}
+/*fin pie de pagina*/
